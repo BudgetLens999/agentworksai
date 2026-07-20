@@ -1,8 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { Resend } from "resend";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-
 // Where lead notifications land. Set this in Vercel's Environment
 // Variables once the mailbox exists — see SETUP-CHECKLIST.md.
 const TO_EMAIL = process.env.LEAD_NOTIFICATION_EMAIL || "";
@@ -28,6 +26,15 @@ export async function POST(req: NextRequest) {
     console.error("LEAD_NOTIFICATION_EMAIL is not set");
     return NextResponse.json({ error: "Server not configured" }, { status: 500 });
   }
+
+  if (!process.env.RESEND_API_KEY) {
+    console.error("RESEND_API_KEY is not set");
+    return NextResponse.json({ error: "Server not configured" }, { status: 500 });
+  }
+
+  // Created here, not at module load — an env var that's missing at
+  // build time would otherwise crash the whole build, not just this route.
+  const resend = new Resend(process.env.RESEND_API_KEY);
 
   try {
     await resend.emails.send({
