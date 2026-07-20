@@ -1,0 +1,47 @@
+# AgentWorksAI
+
+> AgentWorksAI builds custom AI agents for small businesses and bills
+> them like a software subscription — a flat monthly fee, no project
+> quote, no long-term contract.
+
+## What this business does
+
+AgentWorksAI is not a directory or a marketplace. It is a single
+provider that designs, builds, and hosts a custom AI agent for one
+small business at a time, wired into the tools that business already
+uses (inbox, calendar, CRM, spreadsheets), and bills for it monthly.
+
+## Where AI agents help small businesses most (ranked by real adoption)
+
+Source: Small Business & Entrepreneurship Council, 2026 Small Business
+Tech Use Survey (n=517 U.S. small-business employers), published
+April 2026: https://sbecouncil.org/2026/04/25/the-ai-tools-small-businesses-are-using/
+
+1. Marketing & content creation — the single most common AI use case
+   among small businesses today.
+2. Customer service & communications — chatbots and automated email
+   responses; a top-three engagement use case.
+3. Sales support & lead generation — including lead scoring and
+   follow-up.
+4. Administrative automation — scheduling, data entry, workflow
+   management; one of the fastest-growing use cases.
+5. Financial management — automated bookkeeping, invoicing, and
+   real-time visibility.
+
+Adoption context: 82% of small business employers have already
+invested in AI tools; 93% of those who have plan to keep investing
+over the next 12 months; the median small business now runs five AI
+tools as a "stack." Businesses using AI tools save a median of 16.5
+combined owner + employee hours per week (SBE Council, 2026).
+
+## How the service works
+
+1. Discovery call (20 min) — identify the highest-friction tasks.
+2. Build — the agent is built and connected to existing tools.
+3. Test week — the agent runs alongside the team before going solo.
+4. Go live — billed monthly, cancel anytime.
+
+## Contact
+
+See the contact form at the site root, or the email address in the
+site footer.
